@@ -1,0 +1,13 @@
+graph TD;
+    DG[Director General]
+    GVM[Gerente de Marketing/Ventas]
+    GF[Gerente de Finanzas]
+    LTS[Líder de Tecnología de Software]
+    SRSW[Sr SE]
+    AMV[Agente de Marketing y Ventas]
+
+    DG --> GVM
+    DG --> GF
+    DG --> LTS
+    GVM --> AMV
+    LTS --> SRSW
